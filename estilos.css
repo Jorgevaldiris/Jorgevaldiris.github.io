@@ -1,0 +1,140 @@
+body {
+  height: 400px;
+  background-image:url("https://i.postimg.cc/T2Kmd4DC/Fondo.jpg");
+ 
+background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+/* Estilos para el encabezado */
+header {
+  background-color: #FF9773;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para las secciones */
+section {
+  background: linear-gradient(to bottom right, #76cada 0, #5fbdd1 50%, #44b0c8 100%);
+  text-align: center;
+  padding: 50px;
+  margin-top: 10px;
+
+
+  /* margin: 50px 0;
+  padding: 20px;
+  border: 1px solid #ddd; */
+
+  
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+section p {
+  line-height: 1.5;
+}
+
+section img {
+  max-width: 100%;
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #FF9773;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Estilos para el menú */
+.menu {
+  display: none;
+}
+
+.menu.active {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: block;
+  }
+  .menu.active {
+    display: block;
+  }
+  .menu ul {
+    display: flex;
+  }
+  .menu li {
+    margin: 0 10px;
+  }
+  .menu a {
+    color: #333;
+    text-decoration: none;
+  }
+}
+
+/* Estilos para el botón de menú */
+.menu-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.menu-btn:focus {
+  outline: none;
+}
+.u {
+  float: left; /* O right, según sea necesario */
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+
+.welcome-section {
+  background: linear-gradient(to bottom right, #4d94ff, #99ccff);
+  
+  padding: 50px;
+  margin-top: 100px;
+}
+
+.welcome-section h1 {
+  
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  font-size: 24px;
+  color: #000;
+}
+
+
